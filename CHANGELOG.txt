@@ -1,0 +1,5 @@
+0.5.2 - 08-11-2011
+---
+ - Added support for FireFox5
+ - Moved code to GitHub
+ - Added this CHANGELOG

@@ -1,0 +1,34 @@
+<?xml version="1.0"?> 
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+
+	<script type="application/x-javascript" src="chrome://formbug/content/FirebugPanel.js"/> 
+	<script type="application/x-javascript" src="chrome://formbug/content/FirebugPanelForm.js"/> 
+
+    <popup id="contentAreaContextMenu">
+        <menuseparator/>    
+        <menuitem id="menu_firebugPopulateForm" label="Populate Form" oncommand="Firebug.toggleBar(true); Firebug.Formbug.populate_form(document.popupNode)"/>
+        <menuitem id="menu_firebugSerializeForm" label="Serialize Form" oncommand="Firebug.toggleBar(true); Firebug.Formbug.serialize_form(document.popupNode)"/>        
+    </popup>
+
+	<toolbar id="fbToolbar" align="center"> 
+
+		<hbox id="fbToolbarInner" insertbefore="fbDetachButton" flex="1" align="center"> 
+
+			<hbox id="fbFormbugButtons" insertafter="fbNetButtons"> 
+
+				<toolbarbutton label="List Forms" class="toolbar-text-button" tooltiptext="List Forms" oncommand="Firebug.Formbug.list_all_forms()" id="list_forms" /> 
+
+				<toolbarbutton label="Inspect Forms" class="toolbar-text-button" tooltiptext="Inspect Forms" oncommand="Firebug.Formbug.toggle_form_inspection()" id="inspect_forms" /> 
+
+				<toolbarbutton label="Populate All Forms" class="toolbar-text-button" tooltiptext="Populate All Forms" oncommand="Firebug.Formbug.populate_all_forms()"/> 
+
+				<toolbarbutton label="Serialize All Forms" class="toolbar-text-button" tooltiptext="Populate All Forms" oncommand="Firebug.Formbug.serialize_all_forms()"/> 
+
+			</hbox> 
+
+		</hbox> 
+
+	</toolbar> 
+
+</overlay> 

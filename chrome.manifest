@@ -1,0 +1,3 @@
+content formbug chrome/content/formbug/
+
+overlay chrome://firebug/content/firebugOverlay.xul  		chrome://formbug/content/FirebugOverlay.xul 
