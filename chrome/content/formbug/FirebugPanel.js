@@ -157,7 +157,7 @@ Firebug.Formbug = extend(Firebug.Module,
   showPanel: function(browser, panel) 
   { 	
     var isFormbug = panel && panel.name == "Formbug"; 
-    var FormbugButtons = browser.chrome.$("fbFormbugButtons"); 
+    var FormbugButtons = Firebug.chrome.$("fbFormbugButtons"); 
     collapse(FormbugButtons, !isFormbug); 
   }, 
     
