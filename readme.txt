@@ -1,10 +1,10 @@
-FormBug was written by Peter Snyder (snyderp@gmail.com) http://home.petersnyder.com
+FormBug was written by Peter Snyder (snyderp@gmail.com) http://petersnyder.com
 
 All code found within is covered under the following BSD style license
 
 FormBug
 --------------------------------------------------------------------
-Copyright (c) 2011 Peter Snyder, snyderp@gmail.com
+Copyright (c) 2015 Peter Snyder, snyderp@gmail.com
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

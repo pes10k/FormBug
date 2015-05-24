@@ -23,7 +23,7 @@
 
 				<toolbarbutton label="Populate All Forms" class="toolbar-text-button" tooltiptext="Populate All Forms" oncommand="Firebug.Formbug.populate_all_forms()"/> 
 
-				<toolbarbutton label="Serialize All Forms" class="toolbar-text-button" tooltiptext="Populate All Forms" oncommand="Firebug.Formbug.serialize_all_forms()"/> 
+				<toolbarbutton label="Serialize All Forms" class="toolbar-text-button" tooltiptext="Serialize All Forms" oncommand="Firebug.Formbug.serialize_all_forms()"/> 
 
 			</hbox> 
 
